@@ -1,5 +1,31 @@
-[
-  {
+{
+  "parts": [
+    {"value": "Chest", "label": "الصدر (Chest)"},
+    {"value": "Hand", "label": "اليد (Hand)"},
+    {"value": "Wrist", "label": "الرسغ (Wrist)"},
+    {"value": "Forearm", "label": "الساعد (Forearm)"},
+    {"value": "Elbow", "label": "الكوع (Elbow)"},
+    {"value": "Humerus", "label": "العضد (Humerus)"},
+    {"value": "Shoulder", "label": "الكتف (Shoulder)"},
+    {"value": "Clavicle", "label": "الترقوة (Clavicle)"},
+    {"value": "Skull", "label": "الجمجمة (Skull)"},
+    {"value": "CervicalSpine", "label": "العمود الفقري العنقي (C-Spine)"},
+    {"value": "ThoracicSpine", "label": "العمود الفقري الصدري (T-Spine)"},
+    {"value": "LumbarSpine", "label": "العمود الفقري القطني (L-Spine)"},
+    {"value": "Pelvis", "label": "الحوض (Pelvis)"},
+    {"value": "Hip", "label": "مفصل الفخذ (Hip)"},
+    {"value": "Femur", "label": "عظم الفخذ (Femur)"},
+    {"value": "Knee", "label": "الركبة (Knee)"},
+    {"value": "TibiaFibula", "label": "الساق (Tibia/Fibula)"},
+    {"value": "Ankle", "label": "الكاحل (Ankle)"},
+    {"value": "Foot", "label": "القدم (Foot)"},
+    {"value": "Abdomen", "label": "البطن (Abdomen)"}
+  ],
+  "positions": [
+    "AP", "PA", "LAT", "Oblique", "Lateral", "Axial", "Decubitus"
+  ],
+  "scenarios": [
+    {
     "patientName": "محمد علي حسن",
     "reason": "ألم في الصدر وضيق تنفس",
     "symptoms": "سعال جاف، حرارة خفيفة",
@@ -727,4 +753,5 @@
     "correctMAs": {"min": 5, "max": 10},
     "correctSID": {"min": 100, "max": 100}
   }
-]
+  ]
+}
